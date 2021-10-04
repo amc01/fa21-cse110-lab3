@@ -21,13 +21,12 @@
             <li>Stacy</li>
         </ul>
         <hr>
-        <p>
-            Below are some important links we will use.
-            <nav>
-                <a href="https://canvas.ucsd.edu/">Canvas</a> |
-                <a href="https://piazza.com/class/ktt28v1e80k6bx">Piazza</a> |
-            </nav>
-        </p>
+        Below are some important links we will use.
+        <nav>
+            <a href="https://canvas.ucsd.edu/">Canvas</a> |
+            <a href="https://piazza.com/class/ktt28v1e80k6bx">Piazza</a> |
+        </nav>
+        
         <section>
         <h3>Agenda</h3>
         <div>The following is the <span>agenda</span> of the meeting.</div>
@@ -40,7 +39,6 @@
         </ol>
         </section>
 
-        <section>
         <p>From last meeting, the <b>unfinished items</b> were to discuss which members of the 
             group should be taking on what <strong>tasks</strong>. We had discused that <i>Andy</i> 
             and <i>Powell</i> would be in charge of design, while <em>Josh</em> and <em>Brian</em> 
@@ -49,22 +47,19 @@
 
         <p> For the <b>design</b>, this is what we came up with.<br/>
             </p>
-        </section>
 
-        <section>
         <img src="softwaredesign.png" alt="softwaredesign image" width="600" height="400"><br/>
 
         The promo video for our project needs carefully handpicked audio and video files and below are the results
         of everyone's voting.<br/>
 
         <audio controls>
-            <source src="Pulse Intro (Music For Video).mp3" type="audio/mpeg">
+            <source src="PulseIntro(Music For Video).mp3" type="audio/mpeg">
         </audio><br/>
 
         <video width="400" controls>
             <source src="30_seconds_digital_clock_display_of_sixteen_segments.mp4" type="video/mp4">
-          </video>
-        </section>
+        </video>
 
         <details>
             <summary>Questions</summary>
@@ -79,10 +74,10 @@
         </details>
 
         <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="finame">First name:</label><br>
+            <input type="text" id="finame" name="finame" value=""><br>
+            <label for="laname">Last name:</label><br>
+            <input type="text" id="laname" name="laname" value=""><br><br>
             <input type="submit" value="Submit">
         </form> 
         <hr>
@@ -102,31 +97,32 @@
            </form>
         <hr>
         <form>
-            <input type="radio">
+            
             <label for="html">HTML</label><br>
-            <input type="radio">
-            <label for="css">CSS</label><br>
+            <input type="radio" id="html">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="css">
         </form>
         <hr>
         <form>
-            <input type="checkbox">
-            <label for="vehicle1"> I like cats</label><br>
-            <input type="checkbox">
-            <label for="vehicle2"> I like dogs</label><br>
-            <input type="checkbox">
-            <label for="vehicle3"> I like elephants</label><br><br>
-            <input type="submit">
+            <input type="checkbox" id="animal1">
+            <label for="animal1"> I like cats</label><br>
+            <input type="checkbox" id="animal2">
+            <label for="animal2"> I like dogs</label><br>
+            <input type="checkbox" id="animal3">
+            <label for="animal3"> I like elephants</label><br><br>
+            <input type="submit" value="Submit">
         </form>
         <hr>
         <form>
         <textarea name="Textarea" rows="1" cols="50">
-            This is my textarea
+            This is my text area.
         </textarea>
         </form>
         <hr>
         <form>
             <label for="animal">Choose your favorite animal from this list:</label>
-            <input list="animal">
+            <input list="animal" id="animal">
             <datalist id="animal">
               <option value="Cats">
               <option value="Dogs">
@@ -134,17 +130,17 @@
               <option value="Otters">
               <option value="Tigers">
             </datalist><br>
-            <input type="submit">
+            <input type="submit" value="Submit">
         </form>
         <hr>
         <form>
             <label for="animals">Choose an animal:</label>
-            <select name="animal">
+            <select name="animals" id="animals">
               <option value="volvo">Cat</option>
               <option value="saab">Dog</option>
             </select>
             <br><br>
-            <input type="submit">
+            <input type="submit" value="Submit">
         </form>
         <hr>
         <label for="cars">Choose a car:</label>
