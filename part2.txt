@@ -1,1 +1,15 @@
 Fill in the passphrases here.
+
+greenEggsAndHam
+iHateCplusplus
+HTMLRocks
+JavaScriptRules
+SvelteBeatsReact
+ThisIsJS
+YouFoundMe
+Coolcoolcool
+2020sucked
+listenToTheBlackKeys
+a11yComesFirst
+iLoveWebDev
+
