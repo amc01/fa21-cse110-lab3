@@ -1,0 +1,25 @@
+/*changing colors for labTitle*/
+#labTitle {
+    color: rgb(100,100,100);
+    font-size: 1.5cm;
+}
+#author {
+    color: DodgerBlue;
+}
+
+#meeting {
+    font-size: 2vw;
+    color: #ff0000;
+}
+
+#date {
+    color: hsl(123, 100%, 50%);
+    font-size: 4mm;
+}
+
+#attendance {
+    border: .5ch solid black;
+    background-color: aqua;
+    font-size: 16px;
+    line-height: 2em;
+}
