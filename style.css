@@ -5,11 +5,16 @@
 }
 #author {
     color: DodgerBlue;
+    text-align: center;
 }
 
 #meeting {
     font-size: 2vw;
     color: #ff0000;
+    border-style: double;
+    border-color:blueviolet;
+    border-width: 5px;
+    border-radius: 5px;
 }
 
 #date {
@@ -22,4 +27,48 @@
     background-color: aqua;
     font-size: 16px;
     line-height: 2em;
+    min-width: 500px;
+    min-height: 25px;
+}
+
+p.margin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 500px;
+    margin-right: 20px;
+}
+
+#agenda{
+    margin: 10px 100px 10px 100px;
+    text-decoration: underline;
+    display: none;
+}
+
+#text{
+    margin: auto;
+}
+
+#orderedList{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 110px;
+    padding-right: 20px;
+}
+
+#names{
+    padding: 10px 100px 10px 100px;
+}
+
+#longText{
+    height : 75px;
+    width : 50%;
+    display: inline-block;
+}
+
+#promo{
+    max-width: 10 px;
+}
+
+p.bold{
+    display: block;
 }
