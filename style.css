@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Akronim-Regular;
+    src : url("Akronim-Regular.ttf");
+}
 /*changing colors for labTitle*/
 #labTitle {
+    font-family: Akronim-Regular;
     color: rgb(100,100,100);
     font-size: 1.5cm;
 }
@@ -20,6 +25,7 @@
 #date {
     color: hsl(123, 100%, 50%);
     font-size: 4mm;
+    position: static;
 }
 
 #attendance {
@@ -71,4 +77,27 @@ p.margin {
 
 p.bold{
     display: block;
+}
+
+#audio{
+    position: relative;
+    left: 100px;
+}
+
+#foot{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#video:hover{
+    background-color: blue;
+}
+
+#canvas:active{
+    background-color: yellow;
+}
+
+#piazza:active{
+    background-color: yellow;
 }
