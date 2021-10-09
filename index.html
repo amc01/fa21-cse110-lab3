@@ -8,8 +8,65 @@
         <link rel="stylesheet" href="style.css">
         <link href="favicon.ico" rel="icon" type="image/x-icon">
         <title>Meeting Minutes</title>
+        <style>
+            body {
+              background-color: rgb(224, 156, 169);
+            }
+            @media screen and (min-width: 1000px) {
+                body {
+                    background-color: lightgreen;
+                }
+            }
+
+            .flex-container {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-grow: 4;
+                flex-shrink: 3;
+                background-color: rgb(190, 131, 218);
+            }
+            .flex-container > div {
+                background-color: #8247c5;
+                width: 125px;
+                margin: 7px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 25px;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                background-color: #cb73d6;
+                padding: 10px;
+                grid-row-gap: 5px;
+                grid-column-gap: 5px;
+            }
+            .grid-item {
+            background-color: rgba(255, 254, 203, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            font-size: 25px;
+            text-align: center;
+            }
+        </style>
     </head>
     <body>
+        <div class="flex-container">
+            <div>Welcome</div>
+            <div>To</div>
+            <div>The</div>
+            <div>Website</div>  
+            <div>!</div>    
+            <div>!</div>  
+            <div>!</div>  
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">This</div>
+            <div class="grid-item">is</div>
+            <div class="grid-item">our</div>  
+            <div class="grid-item">meeting</div>
+            <div class="grid-item">minutes</div>
+            <div class="grid-item">!</div>
+          </div>
         <h1 id = labTitle>Lab2 Meeting Minutes</h1>
         <header>
             <p id = author>Created by Andy Chen</p>
@@ -33,7 +90,7 @@
         
         <section>
         <h3 id = "agenda">Agenda</h3>
-        <div>The following is the <span>agenda</span> of the meeting.</div>
+        <p>The following is the <span>agenda</span> of the meeting.</p>
         <p id = "text">We will be discussing the goals for this week and the challenges we have faced. 
             We will come up with a list to address potential problems.</p>
         <ol id = "orderedList">
@@ -49,8 +106,8 @@
             would work on documentation. <em>Stacy</em> is in charge of scheduling meetings. We will
             be using <a href="https://www.google.com/drive/">Google Drive</a> to keep track of everything.</p>
         </main>
-        <div> For the <b>design</b>, <p class = "bold">this is what we came up with.</p><br/>
-        </div>
+        <span> For the <b>design</b>, <p class = "bold">this is what we came up with.</p><br/>
+        </span>
         <h2>Design</h2>
         <img src="softwaredesign.png" alt="softwaredesign image" width="600" height="400"><br/>
 
@@ -63,7 +120,7 @@
             <source src="PulseIntro(MusicForVideo).mp3" type="audio/mpeg">
         </audio><br/>
 
-        <h2 id = "video">Video</h2>
+        <h2 id = "video" style="color:blue;text-align:center;">Video</h2>
         <video width="400" controls>
             <source src="30_seconds_digital_clock_display_of_sixteen_segments.mp4" type="video/mp4">
         </video>
