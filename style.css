@@ -23,7 +23,7 @@
 }
 
 #date {
-    color: hsl(123, 100%, 50%);
+    color: hsl(300, 32%, 8%);
     font-size: 4mm;
     position: static;
 }
@@ -100,4 +100,39 @@ p.bold{
 
 #piazza:active{
     background-color: yellow;
+}
+
+p *{
+    background-color: yellow;
+}
+
+details{
+    background-color: rgb(168, 211, 196);
+}
+
+p[target=_yellow]{
+    background-color: rgb(168, 211, 196);
+}
+
+h2, h3, h5{
+    font-family: cursive;
+}
+
+ol li{
+    font-size: 20px;
+}
+
+div > p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div ~ p{
+    font-size: large;
+}
+div + p{
+    font-style: italic;
+}
+
+p.italic{
+    font-style: italic;
 }
